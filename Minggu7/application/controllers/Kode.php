@@ -16,10 +16,12 @@ class Kode extends CI_Controller{
 				$this->load->view('javaview');
 				break;
 			default:
-				echo 'Input URI Salah'
-			}
-	}else{
-		echo 'Input URI Salah';
-	}
+				echo 'Input URI Salah'	
 	}
 }
+	else{
+		echo 'Input URI Salah';
+	}
+}
+}
+?>
